@@ -2,8 +2,8 @@
   "name": "ngx-ap-autounsubscribe",
   "version": "4.0.1",
   "peerDependencies": {
-    "@angular/common": "16.0.2",
-    "@angular/core": "16.0.2"
+    "@angular/common": "^16.0.2",
+    "@angular/core": "^16.0.2"
   },
   "repository": {
     "type": "git",
