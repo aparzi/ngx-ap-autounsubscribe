@@ -1,6 +1,6 @@
 {
   "name": "ngx-ap-autounsubscribe",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,11 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aparzi/ngx-ap-autounsubscribe.git"
+  },
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.3.0",
     "@angular/common": "^14.3.0",
@@ -35,6 +39,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
+    "ng-packagr": "14.0.0",
     "typescript": "~4.6.2"
   }
 }
